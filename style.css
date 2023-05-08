@@ -1,0 +1,346 @@
+/*Estilos globales*/
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #181818;
+  color: white;
+  font-family: "Anuphan", sans-serif;
+}
+
+/*header*/
+header .navbar-collapse {
+  justify-content: center;
+}
+
+header .navbar-dark .navbar-nav .nav-link {
+  color: red;
+}
+
+header .nav-link {
+  font-size: 1.5em;
+  padding: 1em;
+  margin: 0 15px;
+}
+
+/*Footer*/
+footer .red-social {
+  justify-content: center;
+  display: flex;
+  padding: 1em;
+}
+
+footer .red-social ul {
+  display: flex;
+}
+
+footer .red-social a {
+  color: red;
+  padding: 2em;
+  text-decoration: none;
+  font-size: 1.3rem;
+}
+
+/*Inicio*/
+.Inicio {
+  padding: 5em;
+  margin: 2em;
+  text-align: center;
+}
+
+.Inicio h1 {
+  font-size: 5em;
+  color: #d63031;
+  height: 2em;
+}
+
+.Inicio button {
+  margin: 3em;
+  background: red;
+  padding: 1em;
+  border-radius: 10px;
+}
+
+.Inicio button a {
+  color: #000;
+  border: 0;
+  text-transform: uppercase;
+  padding: 10em;
+  text-decoration: none;
+}
+
+/*Planes*/
+.Planes-Asesoramiento {
+  text-align: center;
+  color: #d63031;
+}
+
+.Contenedor-Planes1 {
+  display: flex;
+}
+
+.Planes-items {
+  box-shadow: 0 0 20px 0 rgb(255, 255, 255);
+  padding: 0.3%;
+  text-align: center;
+}
+
+.Planes-items img {
+  width: 32em;
+  height: 22em;
+  padding: 2em;
+}
+
+.Planes-items button {
+  margin: 10%;
+  background: red;
+  padding: 1em;
+}
+
+.Planes-items button a {
+  color: #000;
+  border: 0;
+  text-transform: uppercase;
+  padding: 10em;
+  text-decoration: none;
+}
+
+.Planes-items button:hover,
+.Planes-items button:focus {
+  background: #d63031;
+  color: #fff;
+}
+
+/*Entrenadores*/
+.Entrenadores {
+  text-align: center;
+  padding: 5em;
+}
+
+.Entrenadores h1 {
+  font-size: 5em;
+  color: #d63031;
+  height: 1em;
+}
+
+.Entrenadores button {
+  margin: 24px 48px;
+  background: red;
+  padding: 1em;
+  border-radius: 10px;
+  font-size: 18px;
+}
+
+.Entrenadores button a {
+  color: #000;
+  border: 0;
+  text-transform: uppercase;
+  padding: 10em;
+  text-decoration: none;
+}
+
+.Entrenadores button:hover,
+.Entrenadores button:focus {
+  background: #d63031;
+  color: #fff;
+}
+
+.Contenedor-Entrenadores1 {
+  display: flex;
+}
+
+.ContenedorEntrenadores-img {
+  text-align: center;
+}
+
+.ContenedorEntrenadores-img img {
+  width: 32em;
+  height: 22em;
+  padding: 2em;
+}
+
+/*Tienda*/
+.Asesoramiento {
+  text-align: center;
+  color: #d63031;
+}
+
+.Tienda-contenedor1 {
+  display: flex;
+}
+
+.Tienda-contenedor {
+  box-shadow: 0 0 20px 0 rgb(255, 255, 255);
+  padding: 0.3%;
+  text-align: center;
+}
+
+.Tienda-contenedor img {
+  width: 32em;
+  height: 22em;
+  padding: 2em;
+}
+
+.Tienda-contenedor button {
+  margin: 10%;
+  background: red;
+  padding: 1em;
+}
+
+.Tienda-contenedor button a {
+  color: #000;
+  border: 0;
+  text-transform: uppercase;
+  padding: 10em;
+  text-decoration: none;
+}
+
+.Tienda-contenedor button:hover,
+.Tienda-contenedor button:focus {
+  background: #d63031;
+  color: #fff;
+}
+
+/*Nosotros*/
+.Nosotros {
+  display: flex;
+  flex-direction: column;
+  padding: 80px;
+  box-shadow: 0 4px 4px 0 rgb(0, 0, 0);
+  background: rgb(69, 72, 71);
+  margin: 5em;
+}
+
+.Nosotros1 {
+  color: #d63031;
+  text-align: center;
+  font-size: 2em;
+}
+
+/*Contactos*/
+.Contactos {
+  padding: 0 1.5em;
+}
+
+.Contacto-Contenedor {
+  max-width: 1170px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1.5em;
+}
+
+.logo {
+  text-align: center;
+  font-size: 3em;
+}
+
+.logo span {
+  color: red;
+}
+
+.contacto1 {
+  box-shadow: 0 0 20px 0 rgb(255, 255, 255);
+}
+
+.contactos1 > * {
+  padding: 1em;
+}
+
+.contacto-form {
+  background: #1d1d1d;
+}
+
+.contacto-form form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.contacto-form form .block {
+  grid-column: 1/3;
+}
+
+.contacto-form form p {
+  margin: 0;
+  padding: 1em;
+}
+
+.contacto-form button,
+.contacto-form form input,
+.contacto-form form textarea {
+  width: 100%;
+  padding: 0.7em;
+  border: none;
+  background: none;
+  outline: none;
+  color: white;
+  border-bottom: 1px solid red;
+}
+
+.contacto-form form button {
+  background: red;
+  color: #000;
+  border: 0;
+  text-transform: uppercase;
+  padding: 1em;
+}
+
+.contacto-form form button:hover,
+.contacto-form form button:focus {
+  background: #d63031;
+  color: #fff;
+}
+
+.contacto-info {
+  background: #000;
+}
+
+.contacto-info h4,
+.contacto-info ul,
+.contacto-info p {
+  text-align: center;
+  margin: 0 0 1rem 0;
+}
+
+.contacto-info ul {
+  list-style: none;
+  padding: 0;
+}
+
+/*Testimonios*/
+.Testimomios-Contenedor {
+  text-align: center;
+}
+
+.Testimomios-Contenedor h1 {
+  color: #d63031;
+  font-size: 5em;
+}
+
+.Testimonios-img {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-row-gap: 60px;
+}
+
+.Testimonios-img img {
+  width: 24em;
+  height: 21em;
+}
+
+/*Media Queries*/
+/*Tablet*/
+@media only screen and (max-width: 768px) {
+  .Contenedor-Planes1 {
+    flex-direction: column;
+  }
+  .Entrenadores h1 {
+    height: 4em;
+  }
+  .Contenedor-Entrenadores1 {
+    flex-direction: column;
+  }
+  .Tienda-contenedor1 {
+    flex-direction: column;
+  }
+}
